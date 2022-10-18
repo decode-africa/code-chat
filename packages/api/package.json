@@ -6,8 +6,8 @@
   "types": "./src/index.ts",
   "dependencies": {
     "@dafrica/db": "*",
-    "@trpc/client": "10.0.0-proxy-beta.13",
-    "@trpc/server": "10.0.0-proxy-beta.13",
+    "@trpc/client": "10.0.0-proxy-beta.17",
+    "@trpc/server": "10.0.0-proxy-beta.17",
     "superjson": "^1.9.1",
     "zod": "^3.18.0"
   },

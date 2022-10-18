@@ -256,11 +256,6 @@
   resolved "https://registry.npmjs.org/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@trpc/client@10.0.0-proxy-beta.13":
-  version "10.0.0-proxy-beta.13"
-  resolved "https://registry.npmjs.org/@trpc/client/-/client-10.0.0-proxy-beta.13.tgz#f951879834e3258c177472b4687e5718eb0146cc"
-  integrity sha512-GM0X7OPftU3AQ+ZncuVcUPjmOM7wh76bENgkEfY5phhvnY0FCPhpHVtBhVff75lnENRf2RdIU04G0G3wwKRLmQ==
-
 "@trpc/client@10.0.0-proxy-beta.17":
   version "10.0.0-proxy-beta.17"
   resolved "https://registry.npmjs.org/@trpc/client/-/client-10.0.0-proxy-beta.17.tgz#f18b1fced6001760ad219d63bf1400912f215236"
@@ -277,11 +272,6 @@
   version "10.0.0-proxy-beta.17"
   resolved "https://registry.npmjs.org/@trpc/react/-/react-10.0.0-proxy-beta.17.tgz#8a8c854cf7261e095742d20e45d70dba99cd71d7"
   integrity sha512-xSLEsKL8+mBgWxW/z2oJs0qSYz/TZd/xqpKa8DcPpXTtp0Oa6iT8DychoF+FztjlBL+jULcqfzF1JRJ5z2iFJg==
-
-"@trpc/server@10.0.0-proxy-beta.13":
-  version "10.0.0-proxy-beta.13"
-  resolved "https://registry.npmjs.org/@trpc/server/-/server-10.0.0-proxy-beta.13.tgz#a7ecd28b1b8c0c4f428af62fbd0290fb906665d2"
-  integrity sha512-m3VCl3Boiwb7mqnbx6tLdYMyemccr5AgYY3NORnuXHnJpGOykmh5Fe6nq6x6efinuSXsUEipSD63oJmV4v1guw==
 
 "@trpc/server@10.0.0-proxy-beta.17":
   version "10.0.0-proxy-beta.17"
