@@ -1,0 +1,15 @@
+{
+  "name": "code-chat",
+  "version": "1.0.0",
+  "author": "Bright Williams <brightasima@gmail.com>",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^1.5.6"
+  }
+}
