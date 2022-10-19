@@ -2,5 +2,9 @@
   "name": "@dafrica/utils",
   "version": "1.0.0",
   "main": "index.ts",
-  "license": "MIT"
+  "types": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "4.8.4"
+  }
 }

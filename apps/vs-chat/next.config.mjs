@@ -1,5 +1,6 @@
 // @ts-check
 import { env } from "./src/env/server.mjs";
+import withTM from "next-transpile-modules";
 
 /**
  * Don't be scared of the generics here.
@@ -13,7 +14,8 @@ function defineNextConfig(config) {
   return config;
 }
 
-export default defineNextConfig({
+export default withTM(["@dafrica/api", "@dafrica/db"])(
+defineNextConfig({
   reactStrictMode: true,
   swcMinify: true,
   // Next.js i18n docs: https://nextjs.org/docs/advanced-features/i18n-routing
@@ -21,4 +23,4 @@ export default defineNextConfig({
     locales: ["en"],
     defaultLocale: "en",
   },
-});
+}))

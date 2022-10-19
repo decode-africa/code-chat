@@ -2,7 +2,6 @@
   "name": "code-chat",
   "version": "1.0.0",
   "author": "Bright Williams <brightasima@gmail.com>",
-  "main": "index.js",
   "workspaces": [
     "packages/*",
     "apps/*"
