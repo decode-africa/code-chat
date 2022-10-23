@@ -2,8 +2,8 @@
   "name": "@dafrica/api",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./src/index.ts",
-  "types": "./src/index.ts",
+  "main": "./index.ts",
+  "types": "./index.ts",
   "dependencies": {
     "@dafrica/db": "*",
     "@trpc/client": "10.0.0-proxy-beta.17",

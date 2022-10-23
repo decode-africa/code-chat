@@ -6,6 +6,12 @@ import { trpc } from "../utils/trpc";
 const Home: NextPage = () => {
   const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
 
+  const example = trpc.auth.getOpenMessage.useQuery();
+
+  const wist = example.data;
+
+  if (wist) return <>Good job</>
+
   return (
     <>
       <Head>
@@ -74,7 +80,7 @@ const AuthShowcase: React.FC = () => {
         </p>
       )}
       {secretMessage && (
-        <p className="text-2xl text-blue-500">{secretMessage}</p>
+        <p className="text-2xl text-blue-500">{secretMessage.email}</p>
       )}
       <button
         className="rounded-md border border-black bg-violet-50 px-4 py-2 text-xl shadow-lg hover:bg-violet-100"
